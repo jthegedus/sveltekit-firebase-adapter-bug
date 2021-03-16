@@ -96,6 +96,8 @@ For each time `build` command is run, another nested level is created.
 
 Given a recursive copy of `_app` can be seen in `.svelte/output/client/_app` on each `pnpm run build` it seems to be a bug within SvelteKit itself.
 
+I cannot reproduce with other adapters however. Perhaps it has something to do with `functions/` being in the `.gitignore`?
+
 original thoughts:
 
 ~It seems one of `builder.copy_static_files`, `builder.copy_client_files` or `builder.prerender` is the root cause.~
