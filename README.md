@@ -94,7 +94,7 @@ For each time `build` command is run, another nested level is created.
 
 ## Thoughts
 
-Given a copy can be seen in `.svelte/output/client/_app` it seems to be a bug within SvelteKit itself.
+Given a recursive copy of `_app` can be seen in `.svelte/output/client/_app` on each `pnpm run build` it seems to be a bug within SvelteKit itself.
 
 original thoughts:
 
