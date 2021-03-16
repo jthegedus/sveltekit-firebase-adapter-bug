@@ -94,6 +94,8 @@ For each time `build` command is run, another nested level is created.
 
 ## Thoughts
 
-~It seems one of `builder.copy_static_files`, `builder.copy_client_files` or `builder.prerender` is the root cause.~
-
 Given a copy can be seen in `.svelte/output/client/_app` it seems to be a bug within SvelteKit itself.
+
+original thoughts:
+
+~It seems one of `builder.copy_static_files`, `builder.copy_client_files` or `builder.prerender` is the root cause.~
