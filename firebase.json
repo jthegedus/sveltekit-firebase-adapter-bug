@@ -1,0 +1,15 @@
+{
+	"hosting": {
+		"public": "public",
+		"cleanUrls": true,
+		"rewrites": [
+			{
+				"source": "**",
+				"function": "svelteAdapterTest"
+			}
+		]
+	},
+	"functions": {
+		"source": "functions"
+	}
+}
