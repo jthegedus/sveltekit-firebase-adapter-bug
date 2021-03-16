@@ -49,6 +49,12 @@ pnpm run build
 Output after first `pnpm run build`:
 
 ```
+# .svelte/output/client/_app
+assets/
+chunks/
+pages/
+start-#####.js
+
 # functions/svelteAdapterTest
 app.mjs
 handler.mjs
@@ -69,6 +75,15 @@ _app/
 Output after second `pnpm run build`:
 
 ```
+# .svelte/output/client/_app
+assets/
+chunks/
+pages/
+start-#####.js
+_app/**				< erroneous copy (contains assets/ chunks/ pages/ etc)
+favicon.ico			< erroneous copy
+robots.txt			< erroneous copy
+
 # functions/svelteAdapterTest
 app.mjs
 handler.mjs
