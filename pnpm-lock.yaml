@@ -1,7 +1,7 @@
 dependencies:
-  svelte-adapter-firebase: 0.5.0
+  svelte-adapter-firebase: 0.5.1
 devDependencies:
-  '@sveltejs/kit': 1.0.0-next.49_svelte@3.35.0+vite@2.1.1
+  '@sveltejs/kit': 1.0.0-next.54_svelte@3.35.0+vite@2.1.1
   svelte: 3.35.0
   vite: 2.1.1
 lockfileVersion: 5.2
@@ -21,7 +21,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-KMvyA1yEx/VKBFpQH0Tbr0rXE/QcsKgIo/qwT+9Dx6mMjTykA+tulv4mD9AhjJk89jIK1XkzN2pdZcM9fbx6xg==
-  /@sveltejs/kit/1.0.0-next.49_svelte@3.35.0+vite@2.1.1:
+  /@sveltejs/kit/1.0.0-next.54_svelte@3.35.0+vite@2.1.1:
     dependencies:
       '@svitejs/vite-plugin-svelte': 0.11.1_svelte@3.35.0+vite@2.1.1
       cheap-watch: 1.0.3
@@ -34,7 +34,7 @@ packages:
       svelte: ^3.32.1
       vite: ^2.1.0
     resolution:
-      integrity: sha512-1/yqqtCuZWuE7e3yAxW7HhzHXb01GqiDLLXrryZKROkUrWuG5u75nVqgvDBoWEshpFx4+f+IvF1T7OWFnxrNww==
+      integrity: sha512-D/S7PaFSNcr8s8BeyP91g8iaYG7HeeD2pjEX6rQTsYWYHMus8iZzJjoi8EaGnKRM4GYmh9TOr25TnTRB6dBdwg==
   /@svitejs/vite-plugin-svelte/0.11.1_svelte@3.35.0+vite@2.1.1:
     dependencies:
       '@rollup/pluginutils': 4.1.0
@@ -45,7 +45,7 @@ packages:
       slash: 3.0.0
       source-map: 0.7.3
       svelte: 3.35.0
-      svelte-hmr: 0.13.1_svelte@3.35.0
+      svelte-hmr: 0.13.3_svelte@3.35.0
       vite: 2.1.1
     dev: true
     engines:
@@ -245,20 +245,20 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
-  /svelte-adapter-firebase/0.5.0:
+  /svelte-adapter-firebase/0.5.1:
     dependencies:
       '@sveltejs/app-utils': 1.0.0-next.3
     dev: false
     resolution:
-      integrity: sha512-ZmNX3aFpWjdwWsd2JD+OIF6JIhORTVCUQPpwoYJoaCFKn4CXdwyTMPZzX+0icAPuMZyExEuf6aDdKMzbCMGnyg==
-  /svelte-hmr/0.13.1_svelte@3.35.0:
+      integrity: sha512-JIARaKQr/nVgnd7Ha+L/oN2sLr9+wjE9bgsAtV54KVLlWaCzGHXjRlVafN4CjuAFaDTjJKsbNcpBiZFmFzcFoQ==
+  /svelte-hmr/0.13.3_svelte@3.35.0:
     dependencies:
       svelte: 3.35.0
     dev: true
     peerDependencies:
       svelte: '>=3.19.0'
     resolution:
-      integrity: sha512-dv71eRBhtb/Q0I9db8ss2DjualeFFwEQQ97jpIUWJeX3W/xfFm7FZEWUa+92q5wPXvTZglN2mC+X4nzBuBVXcg==
+      integrity: sha512-gagW62pLQ2lULmvNA3pIZu9pBCYOaGu3rQikUOv6Nokz5VxUgT9/mQLfMxj9phDEKHCg/lgr3i6PkqZDbO9P2Q==
   /svelte/3.35.0:
     dev: true
     engines:
@@ -280,7 +280,7 @@ packages:
     resolution:
       integrity: sha512-nlTQrfYIkahcElD8O/oogbLbuKgAZRbvoFOth3GmRSglfPdY4RgfBjj0Fu7HeCU/2u3Jxc6jW4UuV22LGw1Yaw==
 specifiers:
-  '@sveltejs/kit': next
+  '@sveltejs/kit': ^1.0.0-next.54
   svelte: ^3.29.0
-  svelte-adapter-firebase: ^0.5.0
+  svelte-adapter-firebase: ^0.5.1
   vite: ^2.1.0

@@ -7,19 +7,18 @@ This could be a bug with either the adapter (most likely) or SvelteKit. I cannot
 **info:**
 
 ```
-@sveltejs/kit@1.0.0-next.49
-svelte-adapter-firebase@0.5.0
+@sveltejs/kit@1.0.0-next.54
+svelte-adapter-firebase@0.5.1
 ```
 
 ```
 ➜ npx envinfo --system --npmPackages svelte,@sveltejs/kit --binaries --browsers
-
-npx: installed 1 in 1.019s
+npx: installed 1 in 1.059s
 
   System:
     OS: Linux 5.8 Pop!_OS 20.10
     CPU: (8) x64 AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx
-    Memory: 553.36 MB / 15.33 GB
+    Memory: 4.29 GB / 15.33 GB
     Container: Yes
     Shell: 5.8 - /usr/bin/zsh
   Binaries:
@@ -29,7 +28,7 @@ npx: installed 1 in 1.019s
     Chrome: 89.0.4389.82
     Firefox: 86.0
   npmPackages:
-    @sveltejs/kit: next => 1.0.0-next.49 
+    @sveltejs/kit: ^1.0.0-next.54 => 1.0.0-next.54
     svelte: ^3.29.0 => 3.35.0
 ```
 
@@ -116,3 +115,12 @@ I cannot reproduce with other adapters however. Perhaps it has something to do w
 original thoughts:
 
 ~It seems one of `builder.copy_static_files`, `builder.copy_client_files` or `builder.prerender` is the root cause.~
+
+## Testing the adapter
+
+```shell
+asdf install
+pnpm run install
+pnpm run build
+pnpm run serve
+```
