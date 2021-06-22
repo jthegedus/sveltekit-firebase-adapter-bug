@@ -2,7 +2,7 @@
 
 This repo is a reproduction of a bug when using SvelteKit with the [svelte-adapter-firebase](https://github.com/jthegedus/svelte-adapter-firebase) adapter.
 
-The bug was identified and tracked in - https://github.com/jthegedus/svelte-adapter-firebase/issues/22
+The bug was identified as caused by this issue - https://github.com/sveltejs/kit/issues/587 It is tracked in the adapter issue list with - https://github.com/jthegedus/svelte-adapter-firebase/issues/22
 
 ~This could be a bug with either the adapter (most likely) or SvelteKit. I cannot seem to identify the issue in the adapter itself~
 
